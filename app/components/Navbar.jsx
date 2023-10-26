@@ -23,7 +23,7 @@ const Navbar = () => {
         </span>
         Github
       </a>
-      <span className="flex items-center gap-2 font-bold">
+      <span className="flex items-center gap-2 font-bold max-xl:hidden ">
         <Image src={PHONE} alt="github" height={28} width={28} quality={100} />
         +92 3139779027
       </span>
