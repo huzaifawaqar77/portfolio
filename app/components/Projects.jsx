@@ -7,6 +7,28 @@ const Projects = () => {
         </h2>
         <div className="project-card  text-white grid gap-10 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 place-content-center ">
               <div className="p-4 ">
+            <h3 className="text-xl font-bold">Place Booking App</h3>
+            <p className="font-normal">
+              A full stack application that allows users to Book Different places and see the amenities.
+            </p>
+            <h3 className="text-xl">Technologies Used</h3>
+            <div className="my-4 flex gap-2 flex-wrap">
+              <span className="text-sm px-4 py-2 rounded-full bg-gray-700 mr-2">
+                React
+              </span>
+              <span className="text-sm px-4 py-2 rounded-full bg-gray-700 mr-2">
+                Node
+              </span>
+              <span className="text-sm px-4 py-2 rounded-full bg-gray-700 mr-2">
+                Express
+              </span>
+              <span className="text-sm px-4 py-2 rounded-full bg-gray-700">
+                MongoDB
+              </span>
+            </div>
+            <p className="text-sm font-bold">With full JWT Authentication</p>
+          </div>
+              <div className="p-4 ">
             <h3 className="text-xl font-bold">Expenses Tracker</h3>
             <p className="font-normal">
               A full stack application that allows users to track their
