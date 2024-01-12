@@ -4,6 +4,7 @@ import NEXTLOGO from "./nextjs-fill-svgrepo-com.svg";
 import REACTLOGO from "./reactjs-svgrepo-com.svg";
 import SUPABASELOGO from "./supabase-logo-icon.svg";
 import profilePic from "../profilepic.jpg";
+import AvatarMaker from "../AvatarMaker.png";
 
 const Biography = () => {
   return (
@@ -35,7 +36,7 @@ const Biography = () => {
           better place together! 🚀
         </p>
         <Image
-          src={profilePic}
+          src={AvatarMaker}
           alt="sapiens"
           height={600}
           width={600}
